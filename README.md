@@ -3,14 +3,6 @@
 This project explores multi-temporal vegetation changes in California using environmental time series analysis.  
 The goal is to detect abnormal vegetation stress periods and compare vegetation dynamics across regions.
 
-## Project Goals
-
-- Analyze vegetation change over time
-- Detect abnormal drops in vegetation index
-- Visualize temporal trends
-- Compare regional vegetation stress patterns across California
-- Build a reusable environmental data science workflow
-
 ## Project Stages
 
 ### Stage 1: Simulated NDVI Prototype
@@ -54,6 +46,17 @@ This stage demonstrates that the prototype can be applied to real remote sensing
 - A real MODIS NDVI time series can be successfully integrated into the same workflow.
 - The workflow is transferable from prototype examples to real remote sensing applications.
 
+## Example Figures
+
+### Multi-Region Stress Detection
+![Multi-Region Stress Detection](figures/multiregion_stress_detection.png)
+
+### Real MODIS NDVI Stress Detection
+![Real MODIS Stress Detection](figures/real_modis_stress_detection.png)
+
+### Stress Count by Region
+![Stress Count by Region](figures/stress_count_by_region.png)
+
 ## Project Structure
 
 ```text
@@ -65,3 +68,15 @@ california-vegetation-change-detection/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
+
+## How to Reproduce
+
+1. Clone this repository
+2. Install dependencies
+3. Open the notebook in Jupyter Notebook or VS Code
+4. Run all cells
+
+```bash
+git clone https://github.com/l1nyue666/california-vegetation-change-detection.git
+cd california-vegetation-change-detection
+pip3 install -r requirements.txt
